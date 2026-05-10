@@ -1,3 +1,15 @@
+# 4) No Sistema Operacional Linux, o comando para realizar uma operação de ping com 10
+# iterações é ping -4 -c 10 <servidor> e no Sistema Operacional Windows, o comando para a
+# mesma função é ping -4 -n 10 <servidor>. Fazer uma aplicação Java que rode 3 Threads, sendo
+# que a Thread deve identificar o SO para rodar o comando certo, fazendo operação de ping para
+# os servidores UOL (www.uol.com.br), Terra (www.terra.com.br) e Google (www.google.com.br).
+# Cada thread deve ler a saída do ping imprimindo, a cada iteração, o nome do servidor (usar
+# fixo: UOL, Terra ou Google) e o tempo daquela iteração. Ao fim, deve-se exibir o nome do
+# servidor (usar fixo: UOL, Terra ou Google) e o tempo médio obtido pela operação. Outros
+# Sistemas Operacionais devem ser descartados.
+
+
+
 import subprocess
 import platform
 import multiprocessing
