@@ -1,4 +1,4 @@
-*Exercicios Para fixação do conceito de thread na teoria de processos da disciplina Sistemas Operacionais I*
+**Exercicios Para fixação do conceito de thread na teoria de processos da disciplina Sistemas Operacionais I**
 
 1) Fazer uma aplicação que rode 5 Threads que cada uma delas receba um inteiro chamado id
 
