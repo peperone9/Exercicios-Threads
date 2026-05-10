@@ -6,7 +6,7 @@ def acessar(requisicao):
 	alvo: str = ""
 	buffer = requisicao.stdout.readline().decode("utf-8", errors="ignore")
 	while buffer != "":
-		if "avg" in buffer or "Average" in buffer:
+		if "avg" in buffer or "Average" in buffer or (", " in buffer and "ms" in buffer):
 			alvo = buffer
 			return alvo
 		buffer = requisicao.stdout.readline().decode("utf-8", errors="ignore")
